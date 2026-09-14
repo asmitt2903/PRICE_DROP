@@ -88,13 +88,13 @@ export default async function Home() {
           )}
         </div>
       </section>
-      {user && products.length > 0 && <section className="max-w-7xl mx-auto px4 pb-20">
+      {user && products.length > 0 && <section className="max-w-7xl mx-auto px-4 pb-20">
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-2xl font-bold text-gray-900">
               Your Tracked Products
             </h3>
             <span className="text-sm text-gray-500">
-              {products.length} {products.length === 1? "product":products}
+              {products.length} {products.length === 1 ? "product" : "products"}
             </span>
           </div>
           <div className="grid gap-6 md:grid-cols-2 items-start">
