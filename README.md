@@ -172,12 +172,3 @@ npm run start
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues tab.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
